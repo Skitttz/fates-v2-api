@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    // Bundler mode
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Some stricter flags
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature":true,                  
+    "paths": {
+      "@@environment/*":["./src/config/*"],
+      "@@controllers/*": ["./src/presentation/controllers/*"],
+      "@@domain/*":["./src/domain/*"],
+      "@@entities/*":["./src/domain/entities/*"],
+      "@@useCases/*":["./src/application/use-cases/*"],
+      "@@infra/*":["./src/infra/*"],
+      "@@repositories/*":["./src/infra/repositories/*"],
+      "@@utils/*":["./src/utils/*"]
+
+    },                                                                   
+  },
+  "include": ["env.d.ts", "**/*.ts"],
+  "exclude": ["node_modules"],
+}
