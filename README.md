@@ -58,7 +58,8 @@ The `Clothing` entity displays clothing items. Users can:
 - **View Clothing Items**: Retrieve a list of available clothing.
 - **Search/Filter**: (optional in future versions) Filter items by attributes like type, color, or size.
 
-> **Note**: No cart or purchasing functionality in this version, only a clothing showcase. 🛒🚫
+> [!NOTE]
+> No cart or purchasing functionality in this version, only a clothing showcase. 🛒🚫
 
 ## 🚀 Getting Started
 
