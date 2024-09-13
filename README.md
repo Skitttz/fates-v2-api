@@ -1,4 +1,4 @@
-<div align="center"><img width="20%" src="./public/logo.ico"><p style="font-size:2em"><b>Fates</b> [Clothing Showcase]</p></img></div>
+<div id="user-content-toc" align="center"><ul align="center" style="list-style: none;"><img width="20%" src="./public/logo.ico"> <summary><h1><b>Fates</b> [Clothing Showcase]</h1></summary></img></ul></div>
 
 ## 🔍 Summary
 
