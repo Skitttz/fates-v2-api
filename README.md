@@ -23,7 +23,7 @@ This project designed to showcase clothing items. Built with **Clean Architectur
 ## ✨ Features
 
 - **🔐 User Authentication**: Secure user registration and login.
-- **👗 Clothing Showcase**: View available clothing items via API endpoints.
+- **👕 Clothing Showcase**: View available clothing items via API endpoints.
 - **🏗️ Clean Architecture**: Ensures separation of concerns for scalability and maintainability.
 
 ## 🏗️ Architecture
@@ -73,7 +73,7 @@ The `Clothing` entity displays clothing items. Users can:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/skitttz/fates-api.git
+   git clone https://github.com/Skitttz/fates-v2-api.git
    cd fates-api
    ```
 
